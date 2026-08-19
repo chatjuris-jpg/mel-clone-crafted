@@ -70,8 +70,8 @@ const HistoryCarousel = () => {
             className="absolute inset-0 flex items-center justify-center"
           >
             <img
-              src={slides[currentIndex].image}
-              alt={slides[currentIndex].alt}
+              src={slides[currentIndex]!.image}
+              alt={slides[currentIndex]!.alt}
               loading="lazy"
               decoding="async"
               className="w-full h-full object-cover"

@@ -107,8 +107,8 @@ const TestimonialsSection = () => {
                 <X className="w-7 h-7" />
               </button>
               <img
-                src={feedbacks[selected].image}
-                alt={feedbacks[selected].alt}
+                src={feedbacks[selected]!.image}
+                alt={feedbacks[selected]!.alt}
                 className="w-full h-auto rounded-2xl shadow-2xl"
               />
             </motion.div>
