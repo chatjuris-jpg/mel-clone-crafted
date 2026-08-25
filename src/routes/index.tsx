@@ -472,7 +472,7 @@ const HistorySection = () => (
               do dia a dia.
             </p>
             <p>
-              De lá para cá, já são mais de <strong className="text-honey">50 mil pãezinhos</strong>{" "}
+              De lá para cá, já são mais de <strong className="text-honey">80 mil pãezinhos</strong>{" "}
               entregues, milhares de sorrisos e uma comunidade que cresce junto com a gente.
             </p>
             <p className="hidden md:block">
