@@ -15,6 +15,7 @@ import { Button } from "@/components/ui/button";
 import BenefitsSection from "@/components/BenefitsSection";
 
 import heroVideo from "@/assets/hero-video.mp4";
+import heroPoster from "@/assets/hero-poster.webp";
 import logoMelamo from "@/assets/logo-melamo.png";
 import historiaBackground from "@/assets/historia-background.webp";
 import produtoKitPresente from "@/assets/produto-kit-presente.webp";
