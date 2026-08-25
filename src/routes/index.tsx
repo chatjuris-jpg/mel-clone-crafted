@@ -497,7 +497,7 @@ const HistorySection = () => (
               </div>
               <div>
                 <h5 className="font-semibold text-cream text-base md:text-lg">Desde 2021</h5>
-                <p className="text-xs md:text-sm text-cream/60">+50 mil unidades</p>
+                <p className="text-xs md:text-sm text-cream/60">+80 mil unidades</p>
               </div>
             </div>
           </div>
