@@ -53,7 +53,7 @@ const TestimonialsSection = () => {
             O que dizem <span className="text-gradient-honey">sobre nós</span>
           </h3>
           <p className="text-cream/60 text-sm md:text-base max-w-lg mx-auto px-2">
-            Mais de 50 mil pãezinhos entregues e muitos sorrisos conquistados
+            Mais de 80 mil pãezinhos entregues e muitos sorrisos conquistados
           </p>
         </motion.div>
 
