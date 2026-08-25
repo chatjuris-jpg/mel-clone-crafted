@@ -223,7 +223,8 @@ const HeroSection = () => (
       muted
       loop
       playsInline
-      preload="none"
+      preload="metadata"
+      poster={heroPoster}
       className="absolute inset-0 w-full h-full object-cover"
     >
       <source src={heroVideo} type="video/mp4" />
