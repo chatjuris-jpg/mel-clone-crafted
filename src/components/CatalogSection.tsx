@@ -3,7 +3,7 @@ import { ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import catalogoCorporativo from "@/assets/catalogo-corporativo.webp";
 import catalogoTradicional from "@/assets/catalogo-tradicional.webp";
-import catalogoDiaDasMaes from "@/assets/catalogo-dia-das-maes.webp";
+import catalogoMelam2026 from "@/assets/catalogo-melam-2026.pdf.asset.json";
 
 const catalogs = [
   {
@@ -16,13 +16,7 @@ const catalogs = [
     title: "Catálogo Tradicional",
     image: catalogoTradicional,
     buttonLabel: "Ver Catálogo Tradicional",
-    href: "/catalogos/catalogo-tradicional.pdf",
-  },
-  {
-    title: "Catálogo Dia das Mães",
-    image: catalogoDiaDasMaes,
-    buttonLabel: "Ver Catálogo Dia das Mães",
-    href: "/catalogos/catalogo-dia-das-maes-2026.pdf",
+    href: catalogoMelam2026.url,
   },
 ];
 
