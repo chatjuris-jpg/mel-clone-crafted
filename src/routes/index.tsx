@@ -15,7 +15,8 @@ import { Button } from "@/components/ui/button";
 import BenefitsSection from "@/components/BenefitsSection";
 
 import heroVideo from "@/assets/hero-video.mp4";
-import logoMelamo from "@/assets/logo-melamo.png";
+import heroPoster from "@/assets/hero-poster.webp";
+import logoMelamo from "@/assets/logo-melamo.webp";
 import historiaBackground from "@/assets/historia-background.webp";
 import produtoKitPresente from "@/assets/produto-kit-presente.webp";
 import produtoTorreMel from "@/assets/produto-torre-mel.webp";
@@ -223,7 +224,8 @@ const HeroSection = () => (
       muted
       loop
       playsInline
-      preload="none"
+      preload="metadata"
+      poster={heroPoster}
       className="absolute inset-0 w-full h-full object-cover"
     >
       <source src={heroVideo} type="video/mp4" />
