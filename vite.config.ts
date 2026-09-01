@@ -12,4 +12,10 @@ export default defineConfig({
     // nitro/vite builds from this
     server: { entry: "server" },
   },
+  // Fora do sandbox Lovable (ex.: Hostinger), gera um servidor Node standalone em
+  // .output/server/index.mjs (iniciado com `node .output/server/index.mjs`).
+  // Dentro do sandbox, o preset Cloudflare gerenciado pela plataforma prevalece.
+  nitro: {
+    preset: "node-server",
+  },
 });
