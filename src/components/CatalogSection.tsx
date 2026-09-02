@@ -31,7 +31,7 @@ const CatalogSection = () => (
         </h2>
       </motion.div>
 
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-10 max-w-5xl mx-auto">
+      <div className="grid grid-cols-1 gap-6 md:gap-10 max-w-md mx-auto">
         {catalogs.map((catalog, index) => (
           <motion.div
             key={catalog.title}
