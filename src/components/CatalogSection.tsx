@@ -1,17 +1,10 @@
 import { motion } from "framer-motion";
 import { ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import catalogoCorporativo from "@/assets/catalogo-corporativo.webp";
 import catalogoTradicional from "@/assets/catalogo-tradicional.webp";
 import catalogoMelam2026 from "@/assets/catalogo-melam-2026.pdf.asset.json";
 
 const catalogs = [
-  {
-    title: "Catálogo Corporativo",
-    image: catalogoCorporativo,
-    buttonLabel: "Ver Catálogo Corporativo",
-    href: "/catalogos/catalogo-corporativo.pdf",
-  },
   {
     title: "Catálogo Tradicional",
     image: catalogoTradicional,
@@ -38,7 +31,7 @@ const CatalogSection = () => (
         </h2>
       </motion.div>
 
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-10 max-w-5xl mx-auto">
+      <div className="grid grid-cols-1 gap-6 md:gap-10 max-w-md mx-auto">
         {catalogs.map((catalog, index) => (
           <motion.div
             key={catalog.title}
