@@ -1,17 +1,10 @@
 import { motion } from "framer-motion";
 import { ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import catalogoCorporativo from "@/assets/catalogo-corporativo.webp";
 import catalogoTradicional from "@/assets/catalogo-tradicional.webp";
 import catalogoMelam2026 from "@/assets/catalogo-melam-2026.pdf.asset.json";
 
 const catalogs = [
-  {
-    title: "Catálogo Corporativo",
-    image: catalogoCorporativo,
-    buttonLabel: "Ver Catálogo Corporativo",
-    href: "/catalogos/catalogo-corporativo.pdf",
-  },
   {
     title: "Catálogo Tradicional",
     image: catalogoTradicional,
